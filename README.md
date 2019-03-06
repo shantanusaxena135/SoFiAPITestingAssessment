@@ -5,7 +5,7 @@ This project contains API tests for GET TV endpoint of themoviedb.org as a part 
 ## Setup Instructions
 * Go to https://nodejs.org/en/ to download the latest version of node. Install node on machine.
 
-* Install Test Application Ruby gems:
+* Install Project Dependencies:
 ```sh
 npm install
 ```
