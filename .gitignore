@@ -1,0 +1,8 @@
+# Ignore all downloaded node dependencies
+node_modules/
+
+ui/.DS_Store
+
+api/.DS_Store
+
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "name": "sofi-api-test-assessment",
+  "version": "1.0.0",
+  "description": "This project include test for moviedb.com API as per the SoFi Assessment for Senior Test Automation Engineer Role.",
+  "scripts": {
+    "test": "cd api/specs && ../../node_modules/.bin/jest --updateSnapshot"
+  },
+  "author": "Shantanu Saxena",
+  "license": "Private",
+  "devDependencies": {
+    "frisby": "^2.0.16",
+    "jest": "^24.1.0"
+  }
+}
