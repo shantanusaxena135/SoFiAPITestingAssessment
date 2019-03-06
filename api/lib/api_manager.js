@@ -21,6 +21,16 @@ function create_complete_url(endpoint_url) {
   return base_url + endpoint_url + '?api_key=' + api_key.toString();
 }
 
+function get_invalid_key_tv_show_url(tv_show_id){
+  /*
+ * Returns the GET TV show url string from api.moviedb.com
+ * @param {String} $tv_show_id - id of the TV show to be retireved
+ * @return {String} url string for the GET Tv show url
+ */
+  return base_url + 'tv/' + tv_show_id.toString() + '?api_key=abc_key';
+}
+
 module.exports = {
-    get_tv_show_url: get_tv_show_url
+    get_tv_show_url: get_tv_show_url,
+	get_invalid_key_tv_show_url: get_invalid_key_tv_show_url
 }

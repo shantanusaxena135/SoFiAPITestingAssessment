@@ -1,6 +1,6 @@
 # SoFi API Testing Assessment
 
-This project contains API tests for GET TV endpoint of themoviedb.org as a part of SoFi Technical Assessment
+This project contains API tests for GET TV endpoint of themoviedb.org as a part of SoFi Technical Assessment. Tests are located in api/specs directory.
 
 ## Setup Instructions
 * Go to https://nodejs.org/en/ to download the latest version of node. Install node on machine.
